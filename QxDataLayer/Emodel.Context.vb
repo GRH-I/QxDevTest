@@ -22,6 +22,6 @@ Partial Public Class Entities
         Throw New UnintentionalCodeFirstException()
     End Sub
 
-    Public Overridable Property SteelProps() As DbSet(Of SteelProp)
+    Public Overridable Property QxProps() As DbSet(Of QxProp)
 
 End Class

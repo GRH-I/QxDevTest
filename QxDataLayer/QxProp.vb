@@ -10,8 +10,9 @@
 Imports System
 Imports System.Collections.Generic
 
-Partial Public Class SteelProp
-    Public Property Id As String
+Partial Public Class QxProp
+    Public Property id As String
     Public Property Name As String
+    Public Property Length As Double
 
 End Class
